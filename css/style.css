@@ -1,0 +1,54 @@
+body
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	/* background-image: -webkit-gradient(
+ linear,
+ right top,
+ right bottom,
+ color-stop(0, #18D7FD),
+ color-stop(1, #1D63F0)
+ ); */
+background-image: -o-linear-gradient(bottom, #18D7FD 0%, #1D63F0 100%);
+background-image: -moz-linear-gradient(bottom, #18D7FD 0%, #1D63F0 100%);
+background-image: -webkit-linear-gradient(bottom, #18D7FD 0%, #1D63F0 100%);
+background-image: -ms-linear-gradient(bottom, #18D7FD 0%, #1D63F0 100%);
+background-image: linear-gradient(to bottom, #18D7FD 0%, #1D63F0 100%);
+}
+
+#disp,#footer
+{
+	background: #086EA0;
+
+	-moz-box-shadow: 0 4px 13px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 4px 13px rgba(0,0,0,0.5);
+}
+#disp h4
+{
+	text-align: center;	
+	color: white
+}
+#titlebody{
+background-color: white;
+/*background:url('banner.jpg');*/
+background-size: 100%;
+/*height: 180px;*/
+/* box-shadow: 0 4px 13px rgba(0,0,0,0.5); */
+-moz-box-shadow: 0 4px 13px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 4px 13px rgba(0,0,0,0.5);
+
+}
+#main_body
+{
+	background-color: white;
+-moz-box-shadow: 0 4px 13px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 4px 13px rgba(0,0,0,0.5);
+}
+td
+{
+	padding-top: 3px;
+}
+#footer
+{
+	overflow: hidden;
+	
+}
